@@ -1,0 +1,368 @@
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+header .highlight, header .current {
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header ul:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+header ul{
+  color:#ffffff;
+  text-decoration:none;
+  
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+
+header{
+    padding-bottom:20px;
+  }
+  /*for the grouping_page*/
+.body2{
+  background-image: none;
+}
+.body-page2{
+
+  color:white;
+  margin-left:10%;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../images/showcase2.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  
+}
+
+#showcase h1{
+    margin-top:40px;
+  }
+#showcase p{
+  font-size:20px;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+
+ .current a{
+ 
+ color:#ffffff;
+ }
+ .currentlogout button[type='submit']{
+  border: none;
+  outline: none;
+  height: 40px;
+  background:green;
+    color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+ }
+ 
+ .forgrouping-box button[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 5px;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+#num_members{
+float:right;
+
+}
+
+
+/*for the login part*/
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../images/showcase2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  .login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .login-box input[type="text"], input[type="password"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .login-box input[type="submit"]
+  {
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#1c8adb;
+      color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  .login-box button[type="submit"]:hover
+  {
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+  }
+  
+  .login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+  }
+  .login-box a:hover
+  {
+    color: #39dc79;
+  }
+  /*styling the signup*/
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background: url('../images/showcase2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.signup-box {
+    width: 320px;
+    height: 590px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.signup-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signup-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signup-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signup-box button[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signup-box button[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.signup-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.signup-box a:hover
+{
+    color: #39dc79;
+}
+/*styling the login*/
+.login-box{
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.login-box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
+.login-box a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.login-box a:hover
+{
+  color: #39dc79;
+}
